@@ -149,7 +149,7 @@ const Navbar = () => {
                     Skills
                   </li>
                 </Link>
-                <Link href="/#experinece">
+                <Link href="/#experience">
                   <li
                     onClick={handleNav}
                     className="dark:text-white lg:inline-flex lg:w-auto w-full text-black px-3 py-2 rounded items-center justify-center hover:bg-gray-100 dark:hover:text-black"
