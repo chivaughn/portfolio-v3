@@ -80,7 +80,7 @@ const Navbar = () => {
                 <AiOutlineMail size={25} />
               </li>
             </Link>
-            <Link target="_blank" href="/assets/CV2022.pdf">
+            <Link href="/assets/CV2022.pdf">
               <li className="dark:text-white lg:inline-flex lg:w-auto w-full text-black px-3 py-2 ml-5 border rounded items-center justify-center hover:bg-gray-100 dark:hover:text-black">
                 Resume
               </li>
@@ -165,35 +165,27 @@ const Navbar = () => {
                 </p>
                 <div className="flex items-center justify-between my-4 w-full sm:w-4/5">
                   <Link href="http://www.linkedin.com/in/Chivaughn" passHref>
-                    <a target="_blank" rel="noreferrer">
-                      <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
-                        <FaLinkedinIn />
-                      </div>
-                    </a>
+                    <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
+                      <FaLinkedinIn />
+                    </div>
                   </Link>
                   <Link href="https://github.com/chivaughn" passHref>
-                    <a target="_blank" rel="noreferrer">
-                      <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
-                        <FaGithub />
-                      </div>
-                    </a>
+                    <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
+                      <FaGithub />
+                    </div>
                   </Link>
                   <Link
                     href="https://mailto:chivaughncharles@gmail.com/"
                     passHref
                   >
-                    <a target="_blank" rel="noreferrer">
-                      <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
-                        <AiFillMail />
-                      </div>
-                    </a>
+                    <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
+                      <AiFillMail />
+                    </div>
                   </Link>
                   <Link href="tel:+18684901674" passHref>
-                    <a target="_blank" rel="noreferrer">
-                      <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
-                        <FaPhone />
-                      </div>
-                    </a>
+                    <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
+                      <FaPhone />
+                    </div>
                   </Link>
                 </div>
               </div>
