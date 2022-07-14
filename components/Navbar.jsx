@@ -80,7 +80,7 @@ const Navbar = () => {
                 <AiOutlineMail size={25} />
               </li>
             </Link>
-            <Link href="/assets/CV2022.pdf">
+            <Link target="_blank" href="/assets/CV2022.pdf">
               <li className="dark:text-white lg:inline-flex lg:w-auto w-full text-black px-3 py-2 ml-5 border rounded items-center justify-center hover:bg-gray-100 dark:hover:text-black">
                 Resume
               </li>
@@ -149,7 +149,7 @@ const Navbar = () => {
                     Skills
                   </li>
                 </Link>
-                <Link href="/#experience">
+                <Link href="/#experinece">
                   <li
                     onClick={handleNav}
                     className="dark:text-white lg:inline-flex lg:w-auto w-full text-black px-3 py-2 rounded items-center justify-center hover:bg-gray-100 dark:hover:text-black"
