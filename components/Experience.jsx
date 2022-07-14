@@ -4,9 +4,9 @@ export const Experience = () => {
   return (
     <div
       id="experience"
-      classNameName="scroll-mt-16 w-full md:h-full p-10 items-center py-16 bg-gray-100 dark:bg-gray-600"
+      className="scroll-mt-16 w-full md:h-full p-10 items-center py-16 bg-gray-100 dark:bg-gray-600"
     >
-      <h1 classNameName="text-5xl md:text-9xl container mx-auto font-bold md:text-left text-gray-700 dark:text-gray-50">
+      <h1 className="text-5xl md:text-9xl container mx-auto font-bold md:text-left text-gray-700 dark:text-gray-50">
         Experience.
       </h1>
       <div className="grid grid-cols-1  max-w-xl mx-auto pt-20">
