@@ -165,14 +165,14 @@ const Navbar = () => {
                 </p>
                 <div className="flex items-center justify-between my-4 w-full sm:w-4/5">
                   <Link href="http://www.linkedin.com/in/Chivaughn" passHref>
-                    <a target="_blank" rel="noopener">
+                    <a target="_blank" rel="noreferrer">
                       <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
                         <FaLinkedinIn />
                       </div>
                     </a>
                   </Link>
                   <Link href="https://github.com/chivaughn" passHref>
-                    <a target="_blank" rel="noopener">
+                    <a target="_blank" rel="noreferrer">
                       <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
                         <FaGithub />
                       </div>
@@ -182,14 +182,14 @@ const Navbar = () => {
                     href="https://mailto:chivaughncharles@gmail.com/"
                     passHref
                   >
-                    <a target="_blank" rel="noopener">
+                    <a target="_blank" rel="noreferrer">
                       <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
                         <AiFillMail />
                       </div>
                     </a>
                   </Link>
                   <Link href="tel:+18684901674" passHref>
-                    <a target="_blank" rel="noopener">
+                    <a target="_blank" rel="noreferrer">
                       <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
                         <FaPhone />
                       </div>
