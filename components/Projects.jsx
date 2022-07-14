@@ -12,7 +12,7 @@ const Projects = ({ posts }) => {
       <div className="container mx-auto space-y-4 lg:space-y-0 lg:gap-6 lg:grid lg:grid-cols-3 py-10 auto-col-min">
         {posts.map((item) => (
           <div className="" key={item.frontmatter.title}>
-            <div className="rounded-lg shadow-md  grayscale hover:grayscale-0 dark:grayscale-0 first-letter:hover:shadow-xl hover:scale-105 transition-transform bg-white dark:bg-gray-600 max-w-md overflow-hidden">
+            <div className="rounded-lg shadow-md  grayscale hover:grayscale-0 dark:grayscale-0 first-letter:hover:shadow-xl hover:scale-105 transition-transform bg-white dark:bg-gray-600 max-w-lg overflow-hidden">
               <a
                 href={item.frontmatter.live || item.frontmatter.github || "#!"}
                 target="_blank"

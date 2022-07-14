@@ -80,7 +80,7 @@ const Navbar = () => {
                 <AiOutlineMail size={25} />
               </li>
             </Link>
-            <Link href="/assets/CV2022.pdf">
+            <Link target="_blank" href="/assets/CV2022.pdf">
               <li className="dark:text-white lg:inline-flex lg:w-auto w-full text-black px-3 py-2 ml-5 border rounded items-center justify-center hover:bg-gray-100 dark:hover:text-black">
                 Resume
               </li>
@@ -125,29 +125,36 @@ const Navbar = () => {
             </div>
             <div className="py-4 flex flex-col">
               <ul>
-                <Link href="/">
-                  <li className="dark:text-white lg:inline-flex lg:w-auto w-full text-black px-3 py-2 rounded items-center justify-center hover:bg-gray-100 dark:hover:text-black">
+                <Link href="/#about">
+                  <li
+                    onClick={handleNav}
+                    className="dark:text-white lg:inline-flex lg:w-auto w-full text-black px-3 py-2 rounded items-center justify-center hover:bg-gray-100 dark:hover:text-black"
+                  >
                     About
                   </li>
                 </Link>
-                <Link href="/">
-                  <li className="dark:text-white lg:inline-flex lg:w-auto w-full text-black px-3 py-2 rounded items-center justify-center hover:bg-gray-100 dark:hover:text-black">
+                <Link href="/#projects">
+                  <li
+                    onClick={handleNav}
+                    className="dark:text-white lg:inline-flex lg:w-auto w-full text-black px-3 py-2 rounded items-center justify-center hover:bg-gray-100 dark:hover:text-black"
+                  >
                     Projects
                   </li>
                 </Link>
-                <Link href="/">
-                  <li className="dark:text-white lg:inline-flex lg:w-auto w-full text-black px-3 py-2 rounded items-center justify-center hover:bg-gray-100 dark:hover:text-black">
+                <Link href="/#skills">
+                  <li
+                    onClick={handleNav}
+                    className="dark:text-white lg:inline-flex lg:w-auto w-full text-black px-3 py-2 rounded items-center justify-center hover:bg-gray-100 dark:hover:text-black"
+                  >
                     Skills
                   </li>
                 </Link>
-                <Link href="/">
-                  <li className="dark:text-white lg:inline-flex lg:w-auto w-full text-black px-3 py-2 rounded items-center justify-center hover:bg-gray-100 dark:hover:text-black">
+                <Link href="/#experience">
+                  <li
+                    onClick={handleNav}
+                    className="dark:text-white lg:inline-flex lg:w-auto w-full text-black px-3 py-2 rounded items-center justify-center hover:bg-gray-100 dark:hover:text-black"
+                  >
                     Experience
-                  </li>
-                </Link>
-                <Link href="/">
-                  <li className="dark:text-white lg:inline-flex lg:w-auto w-full text-black px-3 py-2 rounded items-center justify-center hover:bg-gray-100 dark:hover:text-black">
-                    Contact
                   </li>
                 </Link>
               </ul>
@@ -157,18 +164,32 @@ const Navbar = () => {
                   Connect With Me
                 </p>
                 <div className="flex items-center justify-between my-4 w-full sm:w-4/5">
-                  <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
-                    <FaLinkedinIn />
-                  </div>
-                  <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
-                    <FaGithub />
-                  </div>
-                  <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
-                    <AiFillMail />
-                  </div>
-                  <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
-                    <FaPhone />
-                  </div>
+                  <a
+                    href="http://www.linkedin.com/in/Chivaughn"
+                    target="_blank"
+                  >
+                    <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
+                      <FaLinkedinIn />
+                    </div>
+                  </a>
+                  <a href="https://github.com/chivaughn" target="_blank">
+                    <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
+                      <FaGithub />
+                    </div>
+                  </a>
+                  <a
+                    href="https://mailto:chivaughncharles@gmail.com/"
+                    target="_blank"
+                  >
+                    <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
+                      <AiFillMail />
+                    </div>
+                  </a>
+                  <a href="tel:+18684901674" target="_blank">
+                    <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
+                      <FaPhone />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>

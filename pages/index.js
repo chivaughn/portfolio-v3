@@ -11,7 +11,6 @@ import { Experience } from "../components/Experience";
 import { Footer } from "../components/Footer";
 
 export default function Home({ posts }) {
-  console.log(posts);
   return (
     <div>
       <Head>
