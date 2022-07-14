@@ -164,32 +164,40 @@ const Navbar = () => {
                   Connect With Me
                 </p>
                 <div className="flex items-center justify-between my-4 w-full sm:w-4/5">
-                  <a
-                    href="http://www.linkedin.com/in/Chivaughn"
-                    target="_blank"
-                  >
-                    <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
-                      <FaLinkedinIn />
-                    </div>
-                  </a>
-                  <a href="https://github.com/chivaughn" target="_blank">
-                    <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
-                      <FaGithub />
-                    </div>
-                  </a>
-                  <a
+                  <Link href="http://www.linkedin.com/in/Chivaughn" passHref>
+                    <a target="_blank" rel="noopener noreferrer">
+                      <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
+                        <FaLinkedinIn />
+                      </div>
+                    </a>
+                  </Link>
+                  <Link href="https://github.com/chivaughn" passHref>
+                    <a target="_blank" rel="noopener noreferrer">
+                      <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
+                        <FaGithub />
+                      </div>
+                    </a>
+                  </Link>
+                  <Link
                     href="https://mailto:chivaughncharles@gmail.com/"
-                    target="_blank"
+                    passHref
                   >
-                    <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
-                      <AiFillMail />
-                    </div>
-                  </a>
-                  <a href="tel:+18684901674" target="_blank">
-                    <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
-                      <FaPhone />
-                    </div>
-                  </a>
+                    <a target="_blank" rel="noopener noreferrer">
+                      <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
+                        <AiFillMail />
+                      </div>
+                    </a>
+                  </Link>
+                  <Link href="tel:+18684901674" passHref>
+                    <a target="_blank" rel="noopener noreferrer">
+                      <div className="rounded-full shadow-md dark:shadow-gray-800 shadow-gray-400 p-2 hover:scale-105 ease-in duration-300">
+                        <FaPhone />
+                      </div>
+                    </a>
+                  </Link>
+                  <a href="https://github.com/chivaughn" target="_blank"></a>
+                  <a href="" target="_blank"></a>
+                  <a href="" target="_blank"></a>
                 </div>
               </div>
             </div>
