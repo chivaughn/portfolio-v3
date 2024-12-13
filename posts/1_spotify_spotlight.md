@@ -1,16 +1,16 @@
 ---
-title: "Modern Refrigeration and Air Conditioning Ltd"
-excerpt: "Designed the frontend of Modern Refrigeration and Air Conditioning Ltd website and dashboard."
-coverImage: "assets/projects/modern_refrig.png"
-date: "2020-03-16T05:35:07.322Z"
-live: "https://modern-refrigeration.net/"
-github: ""
+title: "Spotify Spotlight"
+excerpt: "A web app built with SvelteKit, Tailwind CSS, Firebase, and the Spotify API for sharing daily songs."
+coverImage: "assets/projects/spotify_spotlight.png"
+date: "2024-12-13T05:35:07.322Z"
+live: "https://spotify-spotlight-fgod.vercel.app/"
+github: "https://github.com/chivaughn/spotify-spotlight"
 author:
-  name: Tim Neutkens
-  picture: "assets/projects/thehartt.png"
+  name: Chivaughn Charles
+  picture: "assets/projects/spotify_spotlight_author.png"
 ogImage:
-  url: "/assets/blog/hello-world/cover.jpg"
-tech: ["laravel", "tailwind css"]
+  url: "/assets/projects/spotify_spotlight/cover.jpg"
+tech: ["sveltekit", "tailwind css", "firebase", "spotify web api"]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
