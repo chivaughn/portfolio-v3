@@ -1,16 +1,16 @@
 ---
-title: "Spotify Spotlight"
-excerpt: "A web app built with SvelteKit, Tailwind CSS, Firebase, and the Spotify API for sharing daily songs."
-coverImage: "assets/projects/spotify_spotlight.png"
-date: "2024-12-13T05:35:07.322Z"
-live: "https://spotify-spotlight-fgod.vercel.app/"
-github: "https://github.com/chivaughn/spotify-spotlight"
+title: "Dolphin App"
+excerpt: "Dolphin is a mobile app that makes it easy to find medication discounts. With Dolphin, skip the paper coupons and long signup processes. Just load a discount code on your phone, show at participating pharmacies and save on your medication. Bookmark all your medications to get notified of new discounts you'll actually care about. Plus, track your savings on your medications over time."
+coverImage: "assets/projects/meet_dolphin.png"
+date: "2025-02-13T05:35:07.322Z"
+live: "https://meetdolphin.com/"
+github: ""
 author:
   name: Chivaughn Charles
   picture: "assets/projects/spotify_spotlight_author.png"
 ogImage:
   url: "/assets/projects/spotify_spotlight/cover.jpg"
-tech: ["sveltekit", "tailwind css", "firebase", "spotify web api"]
+tech: ["flutter", "firebase", "nodejs"]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
