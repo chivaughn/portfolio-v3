@@ -58,7 +58,7 @@ export const Experience = () => {
         {experiences.map((exp, index) => (
           <div key={index} className="relative">
             {/* Card */}
-            <div className="relative experience-card p-6 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10">
+            <div className="relative experience-card p-6 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10 mx-14 md:mx-0">
               <h1 className="absolute -top-10 -left-4 text-4xl text-gray-300 font-bold dark:text-gray-700">
                 {exp.year}
               </h1>
